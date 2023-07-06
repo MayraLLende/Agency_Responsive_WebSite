@@ -1,0 +1,111 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 40px 40px 0 40px;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  background-image: url(assets/images/tai9.jpg);
+  background-size: cover;
+}
+.content {
+  flex: 1;
+  
+}
+
+.logo{
+  width: 150px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  z-index: 50;
+}
+
+.decoration{
+  width: 600px;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.title-page {
+  clear: both;
+}
+
+h1 {
+  font-size: 5rem;
+  color: rgb(191, 41, 246);
+  margin-top: 10px;
+}
+
+h1 .rainbow-word {
+  background: rgb(253,29,29);
+background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(253,115,29,1) 8%, rgba(253,171,29,1) 16%, rgb(222, 205, 27) 25%, rgb(228, 238, 95) 33%, rgb(86, 238, 48) 42%, rgba(69,252,155,1) 49%, rgb(54, 217, 223) 57%, rgba(69,190,252,1) 66%, rgba(69,116,252,1) 75%, rgba(145,69,252,1) 84%, rgba(198,69,252,1) 93%, rgba(252,69,202,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0;
+
+}
+
+.tile-image {
+  width: 300px;
+  height: 190px;
+  float: left;
+  margin-right: 20px;
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+float: right;
+
+}
+.card-title {
+  color: #c300ff;
+  
+}
+
+.footer-content {
+  text-align: right;
+  color: midnightblue;
+  clear: both;
+  margin-top: 30px;
+  
+}
+
+@media (max-width: 680px) {
+body {
+  font-size: 10px;
+
+}
+
+.logo {
+  width: 100px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+
+.card {
+  width: 100%;
+  display:block;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.card img  {
+  margin-bottom: 10px;
+  width: 100%;
+  height: 50%;
+  display: inline;
+}
+
+}
